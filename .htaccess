@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} www.esummit-nmims.com
+
+RewriteRule (.*) http://esummit-nmims.com/$1 [R=301,L]
